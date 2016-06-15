@@ -3,7 +3,7 @@
  */
 package com.supermonk.com.test.ch5;
 
-import com.supermonk.com.ComputeParity;
+import com.supermonk.com.ch5.ComputeParity;
 
 import junit.framework.TestCase;
 

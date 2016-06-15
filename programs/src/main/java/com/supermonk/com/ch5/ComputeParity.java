@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.supermonk.com;
+package com.supermonk.com.ch5;
 
 /**
 * 	ComputeParity.java
