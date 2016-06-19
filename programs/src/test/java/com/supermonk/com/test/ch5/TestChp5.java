@@ -4,6 +4,8 @@
 package com.supermonk.com.test.ch5;
 
 import com.supermonk.com.ch5.ComputeParity;
+import com.supermonk.com.ch5.FindClosestSame;
+import com.supermonk.com.ch5.SwapBits;
 
 import junit.framework.TestCase;
 
@@ -47,6 +49,20 @@ public class TestChp5 extends TestCase {
 		assertFalse(ComputeParity.findParity(4));
 		
 		assertTrue(ComputeParity.findParity(12));
+		
+	}
+	
+	public void testSwapBits(){
+		assertTrue(SwapBits.swapBits(10, 1, 3)==10);
+		assertTrue(SwapBits.swapBits(3, 0, 1)==3); //11
+		assertTrue(SwapBits.swapBits(7, 0, 2)==7);  // 101
+		assertFalse(SwapBits.swapBits(7, 0, 2)==9); 
+		
+	}
+	
+	
+	public void testFindClosest(){
+		assertTrue(FindClosestSame.closest(2)==1); 
 		
 	}
 
